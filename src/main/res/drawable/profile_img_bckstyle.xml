@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Drop Shadow Stack -->
+    <item
+        android:id="@+id/first_color">
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1.5dp"
+                android:left="1.5dp"
+                android:right="1.5dp"
+                android:top="1.5dp" />
+
+            <solid android:color="#00666666" />
+
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item
+        android:id="@+id/second_color">
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1.5dp"
+                android:left="1.5dp"
+                android:right="1.5dp"
+                android:top="1.5dp" />
+
+            <solid android:color="#10666666" />
+
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item
+        android:id="@+id/third_color">
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1.5dp"
+                android:left="1.5dp"
+                android:right="1.5dp"
+                android:top="1.5dp" />
+
+            <solid android:color="#20666666" />
+
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item
+        android:id="@+id/fourth_color">
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1.5dp"
+                android:left="1.5dp"
+                android:right="1.5dp"
+                android:top="1.5dp" />
+
+            <solid android:color="#30666666" />
+
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item
+        android:id="@+id/fifth_color">
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1.5dp"
+                android:left="1.5dp"
+                android:right="1.5dp"
+                android:top="1.5dp" />
+
+            <solid android:color="#50666666" />
+
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <!-- Background -->
+    <item
+        android:id="@+id/sixth_color">
+        <shape android:shape="oval">
+            <solid android:color="#60666666" />
+
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+</layer-list>
